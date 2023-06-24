@@ -24,6 +24,12 @@ export class InicioPage implements OnInit {
       name: 'Alert',
       redirectTo: '/alert'
     },
+    {
+      icon: 'document-outline',
+      name: 'Input Forms',
+      redirectTo: '/input-forms'
+      
+      },
   ];
   constructor() { }
   ngOnInit() {
